@@ -1,0 +1,20 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} restaurantenuutgrill\.com [NC]
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://restaurantenuutgrill.com/$1 [R,L]
+
+
+Options All -Indexes
+
+#URL amigables
+
+RewriteEngine On
+RewriteRule ^(\w+)$ index.php?action=$1
+
+
+
+
+<FilesMatch ".(flv|gif|jpg|jpeg|png|svg|ico|swf|js|css|pdf|mp4)$">
+
+Header set Cache-Control "max-age=28800"
+</FilesMatch>

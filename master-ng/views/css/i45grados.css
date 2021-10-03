@@ -1,0 +1,81 @@
+ input[type="radio"] + label::before {
+    content: '\a0';
+    display: inline-block;
+    vertical-align: .2rem;
+ 
+    width: 1rem;
+    height: 1rem;
+    margin-right: .2rem;
+    border-radius: .2rem;
+    background: rgb(217, 233, 233);
+ 
+    text-indent: .15em;
+    line-height: .65;
+    font-size: 1rem;
+}
+
+
+
+input[type="radio"]:checked + label::before {
+    content: '';
+   
+    width: 3.5rem;
+    height: 3.5rem;
+    position: absolute;
+    top: -8px;
+    left: -46px;
+   background-color: rgb(101, 210, 253)!important;
+    /* box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.63); */
+  
+  
+}
+/* 
+ input[type="radio"]{
+
+    position: absolute;
+    font-size: 3rem;
+   
+   clip: rect(0,0,0,0);
+  
+} */
+
+.respuestas{
+
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    min-height: 41px;
+    position: relative;
+}
+.caras{
+    width: 2.5rem;
+    position: absolute;
+    height: 2.5rem;
+    display: inline-block;
+    top: 0px;
+    left: -38px;
+    font-size: 1.8rem;
+    color: white;
+    border-radius: 100%;
+    /* padding: 1px 8px; */
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.63);
+}
+
+.cara1{
+    background-color: #a70f0f;
+}
+
+.cara2{
+    background-color: #1673ad;
+}
+.cara3{
+    background-color: #fca400;
+}
+.cara4{
+    background-color: orangered;
+}
+
+.cara5{
+    background-color: green;
+}

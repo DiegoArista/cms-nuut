@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,UAOC;EANG,WAAW,EAAE,iBAAiB;EAC9B,GAAG,EAAE,8IACqE;EAC1E,WAAW,EAAE,MAAM;EACnB,UAAU,EAAE,MAAM;AAMtB,UAOC;EANG,WAAW,EAAE,+BAA+B;EAC5C,GAAG,EAAE,kLACuF;EAC5F,WAAW,EAAE,MAAM;EACnB,UAAU,EAAE,MAAM",
+"sources": ["_fonts.scss"],
+"names": [],
+"file": "menu-digital.css"
+}

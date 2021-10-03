@@ -1,0 +1,67 @@
+
+@font-face {
+    font-family: 'aileronsregular';
+    src: url('../fonts/ailerons/ailerons-regular-webfont.woff2') format('woff2'),
+         url('../fonts/ailerons/ailerons-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'frontagecondenseduploadedfile';
+    src: url('../fonts/frontagecondensed/frontagecondensed-regular-webfont.woff2') format('woff2'),
+         url('../fonts/frontagecondensed/frontagecondensed-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/********FUENTES NUEVAS MENU DIIGTAL*********/
+
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('../fonts/bebas-neue/bebasneue_regular-webfont.woff2') format('woff2'),
+         url('../fonts/bebas-neue/bebaskai-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'bebas_neuebook';
+    src: url('../fonts/bebas-neue/bebasneue_book-webfont.woff2') format('woff2'),
+         url('../fonts/bebas-neue/bebasneue_book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'bebas_kairegular';
+    src: url('../fonts/bebas-neue/bebaskai-webfont.woff2') format('woff2'),
+         url('../fonts/bebas-neue/bebaskai-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Agency FB Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Agency FB Bold'), url('../fonts/agency-fb/AGENCYB.woff') format('woff');
+    }
+
+
+
+
+$font-serif: 'aileronsregular' , serif;
+$font-sans-serif: 'frontagecondenseduploadedfile' , sans-serif;
+$font-complementary-regular: 'bebas_neueregular', sans-serif;
+$font-complementary-book: 'bebas_neuebook', sans-serif;
+$font-complementary-2-regular: 'bebas_kairegular', sans-serif;
+$font-complementary-3-regular: 'Agency FB Bold', sans-serif;

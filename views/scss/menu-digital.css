@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'aileronsregular';
+  src: url("../fonts/ailerons/ailerons-regular-webfont.woff2") format("woff2"), url("../fonts/ailerons/ailerons-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'frontagecondenseduploadedfile';
+  src: url("../fonts/frontagecondensed/frontagecondensed-regular-webfont.woff2") format("woff2"), url("../fonts/frontagecondensed/frontagecondensed-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+/*# sourceMappingURL=menu-digital.css.map */
