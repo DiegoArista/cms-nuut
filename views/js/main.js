@@ -317,38 +317,6 @@ $( document ).ready(function() {
 
 
 
-
-
-/* API YOUTUBE */
-
-
- // var nextPageToken = "";
-    // // Resultados por pagina
-    // var resPorPagina = 1;
-    // // Paginas a mostrar
-    // var paginas = 1;
-    // var key = "AIzaSyDSxKQLP-6yz6wn4tGcaQzi0RXzrkIamXk";
-    // var idCanal = "UC24x6TWv5MWWkcxn3fdbc9Q";
-    // var url = "https://www.googleapis.com/youtube/v3/search?key=" + key + "&channelId=" + idCanal + "&part=snippet,id&order=date&maxResults=" + resPorPagina;
-  
-    // $.getJSON(url, function (data) {
-    //   console.log(data);
-    
-    // for (var k in data.items) {
-    // var tituloVideo=data.items[k]["snippet"].title;
-  
-    // var urlVideo="https://www.youtube.com/embed/"+data.items[k]["id"].videoId;
-    // var fechaVideo=data.items[k]["snippet"].publishedAt;
-    // console.log(urlVideo);
-    // console.log(k, data.items[k]["id"].videoId);
-   
-    // // $("#contenedor-iframe").append('<iframe width="100%" height="315" src="'+urlVideo+'" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
-    // }
-    
-    // });
-
-
-	
 	
 
 
